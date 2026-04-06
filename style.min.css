@@ -34,7 +34,7 @@ body a.button {
 header {
     align-items: center;
     background-image: linear-gradient(rgba(255,192,203,.95), rgba(255,192,203,.95)), url(/assets/background-picture.webp);
-    background-position: 50%;
+    background-position: 30%;
     background-size: cover;
     -webkit-clip-path: polygon(0 0,100% 0,100% calc(100% - 1rem),0 100%);
     clip-path: polygon(0 0,100% 0,100% calc(100% - 1rem),0 100%);
