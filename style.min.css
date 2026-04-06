@@ -35,7 +35,7 @@ header {
     align-items: center;
     /* Pink overlay mostly opaque, image visible only 25% */
     background-image: 
-        linear-gradient(rgba(255,192,203,0.90), rgba(255,192,203,0.90)), /* 75% pink overlay */
+        linear-gradient(rgba(255,192,203,0.95), rgba(255,192,203,0.95)), /* 75% pink overlay */
         url(/assets/background-picture.webp);
     background-position: 50%;
     background-size: cover;
