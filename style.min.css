@@ -280,3 +280,7 @@ footer p {
         font-size: 1rem
     }
 }
+
+header {
+    background-image: none !important;
+}
