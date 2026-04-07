@@ -36,10 +36,9 @@ header::before {
     background: none !important;
 } 
 
-header {
-    background: pink !important;
+body {
+    background: lime !important;
 }
-
 header {
     align-items: center;
     background-color: rgba(255,192,203,1);
