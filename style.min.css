@@ -53,7 +53,7 @@ header {
 }
 
 header h1 {
-    background: url(/assets/timmy-tapers-barbershop.svg) 50% no-repeat;
+    background: url(assets/timmy-tapers-barbershop.svg) 50% no-repeat;
     background-size: contain;
     font-size: 1rem;
     height: 16rem;
@@ -82,7 +82,7 @@ header h2 {
 }
 
 section#schedule {
-    background: url(/assets/bad-trims-for-bad-boyz.svg) no-repeat;
+    background: url(assets/bad-trims-for-bad-boyz.svg) no-repeat;
     background-color: #000;
     background-position: center 4rem;
     background-size: 14rem;
