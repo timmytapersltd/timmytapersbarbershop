@@ -33,12 +33,7 @@ body a.button {
 
 header {
     align-items: center;
-    /* Pink overlay mostly opaque, image visible only 25% */
-    background-image: 
-        linear-gradient(rgba(255,192,203,0.95), rgba(255,192,203,0.95)), /* 75% pink overlay */
-        url();
-    background-position: 50%;
-    background-size: cover;
+    background-color: rgba(255,192,203,1);
     -webkit-clip-path: polygon(0 0,100% 0,100% calc(100% - 1rem),0 100%);
     clip-path: polygon(0 0,100% 0,100% calc(100% - 1rem),0 100%);
     display: flex;
