@@ -192,8 +192,8 @@ section#location p {
     }
 
     section#location a#map {
-        background-image: -webkit-image-set(url("/assets/map-large.webp") 1x,url("/assets/map-large@2x.webp") 2x,url("/assets/map-large@3x.webp") 3x);
-        background-image: image-set(url("/assets/map-large.webp") 1x,url("/assets/map-large@2x.webp") 2x,url("/assets/map-large@3x.webp") 3x);
+        background-image: -webkit-image-set(url("assets/map-large.webp") 1x,url("/assets/map-large@2x.webp") 2x,url("/assets/map-large@3x.webp") 3x);
+        background-image: image-set(url("assets/map-large.webp") 1x,url("/assets/map-large@2x.webp") 2x,url("/assets/map-large@3x.webp") 3x);
         background-position: 100%;
         height: 100%
     }
@@ -226,7 +226,7 @@ footer h3 {
 }
 
 footer h3 a {
-    background: url(/assets/at-timmytapersbarbershop.svg) 50% no-repeat;
+    background: url(assets/at-timmytapersbarbershop.svg) 50% no-repeat;
     background-size: contain;
     display: block;
     height: 100%;
