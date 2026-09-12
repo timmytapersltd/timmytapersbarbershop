@@ -299,4 +299,8 @@ header::before,
 header::after {
     background: pink !important;
     background-image: none !important;
+	
+	iframe {
+    filter: grayscale(100%);
+}
 }
