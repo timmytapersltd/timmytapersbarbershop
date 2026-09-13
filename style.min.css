@@ -24,6 +24,9 @@ body a.button {
     text-align: center;
     text-decoration: none
 }
+.mobile-break {
+  display: none;
+}
 
 @media screen and (min-width: 64rem) {
     body a.button {
@@ -291,7 +294,15 @@ footer p {
     footer p {
         font-size: 1rem
     }
+	
 }
+
+@media only screen and (max-width: 600px) {
+  .mobile-break {
+    display: block;
+  }
+}
+
 
 
 header,
